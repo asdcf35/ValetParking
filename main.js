@@ -4,6 +4,7 @@ ctx = canvas.getContext("2d");
 //Give specific height and width to the car image
 greencar_width = 75;
 greencar_height = 100;
+
 background_image = "parkingLot.jpg";
 greencar_image = "car2.png";
 
