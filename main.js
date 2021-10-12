@@ -13,6 +13,14 @@ var greencar_y = 225;
 var background_imgTag;
 var greencar_imgTag;
 
+background_imgTag = new Image();
+background_imgTag.onload = uploadBackground;
+background_imgTag.src = background_image;
+
+greencar_imgTag = new Image();
+greencar_imgTag.onload = uploadBackground;
+greencar_imgTag.src = background_image;
+
 function add() {
 	//upload car, and background images on the canvas.
 	background_imgTag = new Image();
