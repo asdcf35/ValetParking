@@ -10,6 +10,8 @@ greencar_image = "car2.png";
 //Set initial position for a car image.
 var greencar_x = 5;
 var greencar_y = 225;
+var background_imgTag;
+var greencar_imgTag;
 
 function add() {
 	//upload car, and background images on the canvas.
