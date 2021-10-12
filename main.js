@@ -1,9 +1,9 @@
-//Create a reference for canvas 
+
 canvas = document.getElementById("myCanvas");
-ctx = canvas.getContext("2d")
+ctx = canvas.getContext("2d");
 //Give specific height and width to the car image
-const greencar_width = 75;
-const greencar_height = 100;
+greencar_width = 75;
+greencar_height = 100;
 background_image = "parkingLot.jpg";
 greencar_image = "car2.png";
 
